@@ -12,9 +12,7 @@ WiredTiger includes ACID transactions with standard isolation levels and durabil
 
 WiredTiger can be used as a simple key/value store, but also has a complete schema layer, including indices and projections.
 
-You can find standalone releases of WiredTiger [here](https://github.com/wiredtiger/wiredtiger/releases).
-
-You can find pre-built documentation about the WiredTiger storage engine [here](http://source.wiredtiger.com/).
+You can find standalone releases and pre-built documentation for  WiredTiger [here](http://source.wiredtiger.com/).
 
 The WiredTiger feature and bug tracking system is [here](https://jira.mongodb.org/browse/WT).
 
