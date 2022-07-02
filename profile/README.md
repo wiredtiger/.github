@@ -1,17 +1,27 @@
 ## Hi there 👋
 
-Welcome to the WiredTiger GitHub landing page! WiredTiger is an Open Source project, that is shepherded by [MongoDB](https://www.mongodb.com/).
-WiredTiger primarily consists of a Storage Engine implementation, which is used as the default Storage Engine for the
-[MongoDB server](https://github.com/mongodb/).
+Welcome to the WiredTiger GitHub landing page!
 
-You can find standalone releases of WiredTiger [here](https://github.com/wiredtiger/wiredtiger/releases)
+WiredTiger is a production quality, high performance, scalable, NoSQL, Open Source extensible platform for data management.
+WiredTiger is developed and maintained by [MongoDB, Inc.](https://www.mongodb.com/), where it is the principle storage engine in the MongoDB database.
 
-You can find documentation about the WiredTiger storage engine [here](http://source.wiredtiger.com/)
+WiredTiger supports both row-oriented storage (where all columns of a row are stored together), and column-oriented storage (where
+columns are stored in groups, allowing for more efficient access and storage of column subsets).
 
-Feature and bug tracking system is [here](http://source.wiredtiger.com/)
+WiredTiger includes ACID transactions with standard isolation levels and durability at both checkpoint and commit-level granularity.
 
-If you are interested in WiredTiger as it exists within MongoDB, it is worth noting that MongoDB packages WiredTiger along with it's releases. Which means
-that you are probably looking in the wrong place. Try starting with the [MongoDB documentation](https://www.mongodb.com/docs/).
+WiredTiger can be used as a simple key/value store, but also has a complete schema layer, including indices and projections.
 
-If you have any questions or feedback - the feature/bug tracking system is open, so please raise a ticket, or alternatively email info@wiredtiger.com
+You can find standalone releases of WiredTiger [here](https://github.com/wiredtiger/wiredtiger/releases).
+
+You can find pre-built documentation about the WiredTiger storage engine [here](http://source.wiredtiger.com/).
+
+The WiredTiger feature and bug tracking system is [here](https://jira.mongodb.org/browse/WT).
+
+The WiredTiger community is [here](https://groups.google.com/g/wiredtiger-users).
+
+If you are interested in WiredTiger as it exists within MongoDB, please consult the [MongoDB documentation](https://www.mongodb.com/docs/) or open
+a [MongoDB SERVER ticket](https://jira.mongodb.org/browse/SERVER).
+
+If you have questions or feedback, the feature/bug tracking system is open, so please raise a ticket or alternatively email info@wiredtiger.com.
 
