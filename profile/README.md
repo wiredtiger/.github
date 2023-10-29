@@ -3,7 +3,7 @@
 Welcome to the WiredTiger GitHub landing page!
 
 WiredTiger is a production quality, high performance, scalable, NoSQL, Open Source extensible platform for data management.
-WiredTiger is developed and maintained by [MongoDB, Inc.](https://www.mongodb.com/), where it is the principle storage engine in the MongoDB database.
+WiredTiger is developed and maintained by [MongoDB, Inc.](https://www.mongodb.com/), where it is the principal storage engine in the MongoDB database.
 
 WiredTiger supports both row-oriented storage (where all columns of a row are stored together), and column-oriented storage (where
 columns are stored in groups, allowing for more efficient access and storage of column subsets).
